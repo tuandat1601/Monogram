@@ -1,0 +1,36 @@
+*, *::before, *::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+ul{
+	list-style: none;
+	margin: 0;
+}
+a ,button{
+cursor: pointer;
+	text-decoration: none;
+}
+#main{
+	overflow-x: hidden;
+	
+}
+
+
+section{
+	    background-color: #f0efed;
+    overflow: hidden;
+    
+   
+   
+
+}

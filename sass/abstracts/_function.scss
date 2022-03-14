@@ -1,0 +1,8 @@
+@import "variables";
+
+@function getsize($font-size-style){
+	@return map-get($getsize , $font-size-style )
+};
+@function color($color-style){
+	@return map-get($colors , $color-style )
+}

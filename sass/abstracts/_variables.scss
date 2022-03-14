@@ -1,0 +1,20 @@
+@import "../base/reset";
+// color
+$colors:(
+	"blue-color":#1a2456,
+	"orange-color":#ff501c,
+	"black-color":#080b1b,
+	"spring-wood-color":#f0efed,
+	"abbey-color":#ff8b68,
+	"spring-color":#efc2b3,
+	
+);
+//  font-size
+$getsize:(
+	"font-size-small":1.2rem,
+	"font-size-normal":1.5rem,
+	"font-size-big":1.875rem,
+	"font-size-large":2.8rem,
+	"font-size-title":3.75rem,
+	
+)

@@ -1,0 +1,141 @@
+.footer{
+	
+	background-color: color(blue-color);
+	padding: 3rem;
+	min-width: 100vw;	
+	&__container{
+		display: flex;
+		max-width: 1200px;
+		&--section{
+		padding: 1.5rem;
+		flex: 0 0 16.66666667%;
+		max-width: 16.66666667%;
+		color:color(spring-color);
+		&__title-address{
+			color:inherit;
+			font-size: getsize(font-size-small);
+			text-transform: uppercase;
+			font-weight: 600;
+			margin-bottom: 1rem;
+		}
+		address , &__para-address{
+			display: block;
+			font-style: normal;
+			font-size: 1.4rem;
+			margin-bottom: 1rem;
+		}
+		.list-links-footer{
+			margin-bottom: 1rem;
+			li{
+				margin-bottom: 0.6rem;
+			}
+			.links-item-ft{
+				text-decoration: none;
+				color:inherit;
+				font-size: 1.4rem;
+			}
+
+			.links-item-ft:hover{
+				color:color(orange-color);
+				text-decoration: underline;
+			}
+		}
+		}
+		.form-ft{
+			position: relative;
+			max-width: 40rem;
+			order: 12;
+			flex: 0 0 33.33333333%;
+    			max-width: 33.33333333%;
+			    .email{
+				display: flex;
+				flex-wrap: wrap;
+				margin: 0 -5px;
+				font-size: 1.2rem;
+				color:color(spring-color);
+				.wall-ip, .wall-btn{
+					padding-left: 5px;
+					margin-bottom: 3rem;
+					flex-grow:  1;
+					
+					.ip-email{
+						width: 100%;
+						font-size: 1.2rem;
+						padding: .75rem .5rem;
+						padding-left: 1rem;
+						color:white;
+						outline: none;
+						border: 1px solid color(spring-color);
+						background-color: transparent;
+					}
+				}
+				.wall-btn{
+					margin-left: 5px;
+					.btn-email{
+						font-size: 1.4rem;
+						color:color(blue-color);
+						font-weight: 600;
+						background-color:#efc2b3;
+						padding: .8rem 2.5rem;
+						border: none;
+						outline: none;
+						border-radius: 30px;
+					}
+				}
+			    }
+			    .social-ft{
+				    .list-shine{
+					    display: flex;
+					    flex-wrap: wrap;
+					    li{
+						    margin: 0 .375rem .4rem;
+						    a{
+							    display: block;
+							    height: 27px;
+							    width: 27px;
+							    border-radius: 50%;
+							    background-color: color(spring-color);
+							    
+							    svg{
+								    position: relative;
+								    transform: translateY(-50%);
+								    top:50%;
+								    display: block;
+								    margin: auto;
+								    
+								    width: 50%;
+								    height: 50%;
+								    path{
+									fill:color(blue-color);
+								    }
+							    }
+						    }
+					    }
+					    li:first-child{
+						margin-left: 0;
+						margin-right: .375rem;
+					    }
+					    li:last-child{
+						margin-left: .375rem;
+						margin-right: 0
+					    }
+				    }
+			    }
+			    .company-ft{
+				    margin-bottom: 1.6rem;
+				    .minitext{
+					    font-size: 1.4rem;
+					}
+					small{
+						font-size: 1rem;
+						a{
+							font-size: 1rem;
+							color:color(abbey-color);
+						}
+					}
+			    }
+		}
+	}
+}
+
+

@@ -1,0 +1,44 @@
+.ownImg{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	object-fit: cover;
+	object-position: 50% 50%;
+	
+	img{
+		position: relative;
+		top:0;
+		left:0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: 50% 50%;
+		opacity: 1;
+	}
+	.ownImg__container{
+		position: relative;
+		text-align: center;
+		top:0;
+		width: 100%;		
+		z-index: 21;
+		&--context{
+			position: absolute;
+			width: 1140px;
+			margin-top: 3rem;
+			left: 50%;
+			transform: translateX(-50%);			
+			padding: 0 20px;			
+			.ownImg--title{
+				font-size: getsize(font-size-title);
+				color:color(blue-color);
+				letter-spacing: 4px;
+				margin-bottom: 1.6rem;
+			}
+			.ownImg--para{
+				
+				font-size: getsize(font-size-big);
+				color:color(blue-color);
+			}
+		}
+	}
+}

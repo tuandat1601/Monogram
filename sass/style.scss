@@ -1,0 +1,18 @@
+body{
+	position: relative;
+
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+// abstract
+@import "./abstracts/variables";
+@import "./abstracts/function";
+// layout//
+@import "layout/sectionImg";
+@import "layout/header";
+@import "layout/consoleImg";
+@import "layout/ownImg";
+@import "layout/cookie";
+@import "layout/footer";
+// base//
+@import "base/reset";
+@import "base/utilitis";

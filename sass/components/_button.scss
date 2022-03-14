@@ -1,0 +1,86 @@
+@import "../base/utilitis.scss";
+.login-link{
+	text-decoration: none;
+	display: flex;
+	padding-right: 0.8rem;	
+	margin-right: 4rem;					
+	svg{
+		display: inline-block;
+		padding-right: 0.8rem;
+		color: color(black-color);
+		path{
+			box-sizing: border-box;
+		}							
+	}
+	span{
+	transform: translateY(20%);
+	display: inline-block;
+	font-size: font-size(font-size-normal);
+	font-weight: 700;
+	color: color(black-color);
+	 
+	}
+}
+.sign-in{
+	padding: .7rem 1.6rem;
+	border-style: solid;
+	border-width: 1px;
+	margin-right: 1.6rem;
+	border-color: color(black-color);
+	background-color: white;
+	font-size: font-size(font-size-normal);
+	border-radius: 50px;
+	font-weight: 600;
+}
+.join-now{
+	display: inline-block;
+	padding: 0.7rem 1.6rem;
+	border-radius: 50px;
+	text-decoration: none;
+	background-color: color(black-color);
+	color:white;
+	font-size: font-size(font-size-normal);
+	font-weight: 600;
+}
+.introduce__text--btn{
+	margin-top: 3.2rem;
+	text-decoration: none;
+	display: inline-block;
+	padding:.7rem 1.6rem ;
+	border-radius: 3rem;
+	text-align: center;
+	line-height: 1.2;
+	background-color: color(green-color);
+	font-size:1.9rem;
+	color: white;
+	font-weight: 500;
+}
+.tabLinks{
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	border-radius: 0;
+	border: 0;
+	padding: .8rem .8rem 1.6rem;
+	h3.core{
+		font-size: 2.4rem;
+		
+	}
+}
+.btn-submit{
+	position: relative;
+	display: block;
+	
+	margin-left: auto;
+	margin-top: .8rem;
+	padding: 7px 16px;
+	text-align: center;
+	font-size: 1.6rem;
+	font-weight: 600;
+	border: 1px solid black;
+	outline: none;
+	background-color: transparent;
+	border-radius: 15px;
+}

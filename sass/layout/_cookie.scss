@@ -1,0 +1,41 @@
+#cookie-accept{
+	position: fixed;
+	width: 100%;
+	background: #c4beb6;
+	border-top:1px solid color(blue-color) ;
+	left: 0;
+	bottom: 0;
+	z-index: 99;
+	transition: 1s cubic-bezier(0,0.5,0.75,1)  ;
+ .cookie-accept__container{
+	 padding: 1rem 0.25rem;
+	 text-align: center;
+	 .cookie-left{
+		 margin-left: 0.5rem;
+		
+	 }
+&--text{
+	font-size:getsize(font-size-small);
+	color:color(blue-color);
+	display: inline;
+	letter-spacing: 1px;
+	.cookie-link, .btn-accept{
+		font-size: getsize(font-size-small);
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	.btn-accept{
+		color:white;
+		border: none;
+		border-radius: 30px;
+		padding: 7px 25px;
+		background-color: color(blue-color);
+cursor: pointer;
+	}
+	.cookie-link{
+		padding: .25rem 1.5rem;
+		color:color(blue-color);
+	}
+}
+ }
+}

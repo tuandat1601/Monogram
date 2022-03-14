@@ -1,0 +1,114 @@
+.header{
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	display: flex;
+
+	// flex-wrap: wrap;
+	z-index: 99;
+	&__container{
+		padding: 1.5rem;
+		flex: 1;
+		&--menu{
+			background-color: #1a2456;
+			width: 100%;
+			height: 52px;
+			.menu-wall{
+				padding: .75rem;				
+				height: 100%;
+				display: flex;
+				
+				color:color(spring-color);
+				.menu__logo{
+					margin-right: 1rem;
+					
+					a{
+						display: block;
+						color: inherit;
+					}
+					
+				}
+				.menu__nav{
+					position: relative;
+					display: flex;
+					flex-basis: auto;
+					flex-grow: 1;
+					&--list{
+						position: relative;
+						display: flex;
+						margin-left: auto;
+						margin-top: 0;
+						padding-left: 0;
+						height: 100%;
+						flex-direction: row;
+						align-items: center;
+						li{
+							margin-left: 1rem;
+						}
+						&__links{
+							
+							color:inherit;
+							font-size: getsize(font-size-small);
+							text-transform: uppercase;
+							letter-spacing: 1px;
+							padding: .5rem;
+						}
+						.bag-shop{
+							margin-left: 1rem;
+							a{
+								padding: .5rem;
+								svg{
+									color:color(spring-color);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		&--seo{
+			margin-top: .8rem;
+			background-color: #ff8b68;
+			width: 100%;
+			z-index: 99;
+			display: block;	
+			.seo-wall{
+				padding: .5rem;
+				display: flex;
+				color:color(blue-color);
+				font-size: getsize(font-size-normal);
+				align-items: center;
+				.seo__text{
+					font-weight: 700;
+					color: inherit;
+					font-size: inherit;
+					text-align: center;
+					letter-spacing: 1px;
+					width: 100%;
+					transition: 0.3s;
+				}
+				.seo__text:hover, .seo__text:active{
+					text-decoration: underline;
+				}
+				#seo__close{
+					position: relative;
+					font-size: 2rem;
+					color: inherit;
+					height: 27px;
+					padding-right: 2rem;
+					cursor: pointer;
+					span{
+						position: absolute;
+						top:-20%;
+						font-size: 2.4rem;
+						color: rgb(128, 120, 120);
+					}
+
+				}
+				
+			}
+		}
+	}
+
+}
